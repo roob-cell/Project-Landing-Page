@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0PX;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1F2937;
+    height: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.header .container .logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header .container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .container ul a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: ;
+}
+
+/* SECTION-1 */
+
+.section-1 {
+    background-color: #1F2937;
+    height: 480px;
+}
+
+.section-1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 400px;
+}
+
+.section-1 .container .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.section-1 .container .text .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.section-1 .container .text .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1 .container .text .Sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+    background: #3882F6; 
+    border: 1px solid #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+#table {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+    height: 480px;
+}
+
+.section-2 .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-2 .container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* height: 100%; */    
+}
+
+.section-2 .container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
+
+.box img {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
