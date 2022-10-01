@@ -1,7 +1,7 @@
 # Project-Landing-Page
 Create an entire web page from a design provided
 
-Phography credits:
+Photography credits:
 
  - Khloe Arledge https://unsplash.com/photos/ND3edEmzcdQ
  - Irene Kredenets https://unsplash.com/photos/6unxGRCPg0U
